@@ -1,0 +1,99 @@
+body {
+  text-decoration: none;
+
+}
+
+.containerTout {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+  
+  .pdp {
+    width:  300px;
+    height:  300px; 
+    padding-right: 100px;  
+  }
+
+  .debut  {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+
+  }
+
+  .a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .logo
+   {
+    height: 150px;
+    padding-left: 25px;
+
+  }
+ 
+  .bouton {
+    display: flex;
+    flex-direction: row;
+    border-radius: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 250px;
+    height: 50px;
+    justify-content: center;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-bottom: 32px;
+    text-decoration: none;
+
+  }
+
+  .Twitter {
+    background-color: #1D9BF0;
+
+  }
+
+  .boutonImage {
+    height: 35px;
+    padding-top: 8px;
+    padding-left: 3px;
+  }
+
+.lien {
+  text-decoration: none;
+  color: black;
+}
+
+.lien:hover {
+  opacity: 0.5;
+}
+
+.discord {
+  background-color: #57F287;
+}
+
+.github {
+  background-color: #BBDDE5;
+}
+
+.threads {
+  background-color: #E4405F;
+}
+
+
+.derniertweet {
+  margin-left: 400px;
+}
+.txtdt {
+  margin-bottom: 5em;
+  text-align: center;
+  padding-top: 2em;
+}
