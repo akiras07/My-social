@@ -1,6 +1,6 @@
 body {
   text-decoration: none;
-
+  background-color: #ffe6ff;
 }
 
 .containerTout {
@@ -19,8 +19,8 @@ body {
 }
 
 .pdp {
-  width: 175px;
-  height: 175px;
+  width: 68px;
+  height: 68px;
   padding-right: 100px;
 }
 
@@ -189,10 +189,26 @@ header {
   background-color: lightblue;
   border-radius: 65px;
   justify-content: center;
-
+  display: flex;
+  justify-content: space-between;
 }
 
 
 .headertexte {
   justify-content: center;
+  font-size: 30px;
+}
+
+.lienheader {
+  text-decoration: none;
+  color: #000000;
+}
+  
+.homeRectamgle {
+  margin-left: 4%;
+  background-color: #ffb3ff;
+  border-radius: 35px;
+  width: 500px;
+  padding: 15px;
+  margin-top: 2%;
 }
