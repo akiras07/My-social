@@ -1,0 +1,198 @@
+body {
+  text-decoration: none;
+
+}
+
+.containerTout {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 200px 200px;
+  gap: 50px;
+  padding-top: 100px;
+
+}
+
+.pdp {
+  width: 175px;
+  height: 175px;
+  padding-right: 100px;
+}
+
+.debut {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+
+}
+
+.a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  height: 150px;
+  padding-left: 25px;
+
+}
+
+.bouton {
+  border-radius: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 175px;
+  height: 175px;
+  justify-content: center;
+  margin-right: 65px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  text-align: center;
+
+  text-decoration: none;
+  border: #000000;
+  border-width: 3px;
+  border-style: solid;
+
+}
+
+.Twitter {
+  border-color: #1D9BF0;
+  background-color: #bedff9;
+}
+
+
+.lien {
+  text-decoration: none;
+  color: black;
+}
+
+.lien:hover {
+  opacity: 0.5;
+}
+
+.discord {
+  border-color: #5865F2;
+  /* Coulour prise a 90% de la couleur du dessus*/
+  background-color: #d0d3fb;
+}
+
+.github {
+  border-color: #BBDDE5;
+}
+
+.threads {
+  border-color: #000000;
+  background-color: #cccccc;
+}
+
+.bluesky {
+  border-color: #0285FF;
+  background-color: #99ceff;
+
+}
+
+.instagram {
+  border-color: #FF0069;
+  background: linear-gradient(45deg, #f8cda0 0%, #f3baa5 25%, #f1a7b2 50%, #f0a8c4 75%, #f3a5da 100%);
+}
+
+.oculus {
+  border-color: #0467DF;
+}
+
+.playstation {
+  border-color: #0070D1;
+  background-color: #cce7ff;
+}
+
+.steam {
+  border-color: #000000;
+  background-color: #cccccc;
+}
+
+.titrers {
+  font-size: large;
+}
+
+
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 1000px) {
+  .containerTout {
+    flex-direction: column;
+  }
+
+  .debut {
+    flex-direction: row;
+  }
+
+  body {
+    font-size: x-large;
+  }
+  .container {
+    grid-template-columns: 400px 400px ;
+    grid-template-rows: 400px 400px 400px 400px 400px;  
+  }
+  .bouton {
+    border-radius: 35px;
+    width: 350px;
+    height: 350px;
+    border-width: 3px;
+    margin-left: 40px;
+  
+  }
+  .at {
+    padding-top: 120px;
+  
+  }
+  
+  .textrs {
+    padding-top: 80px;
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+}
+
+@media (max-width: 1400px) and (min-width: 1001px) {
+
+}
+
+.duolingo {
+  border-color: #58CC02;
+  background-color: #e2fecd;
+}
+
+.at {
+  padding-top: 60px;
+
+}
+
+.textrs {
+  padding-top: 40px;
+}
+
+
+header {
+  background-color: lightblue;
+  border-radius: 65px;
+  justify-content: center;
+
+}
+
+
+.headertexte {
+  justify-content: center;
+}
