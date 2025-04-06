@@ -1,6 +1,7 @@
 body {
   text-decoration: none;
-  background-color: #ffe6ff;
+  /*background-color: #ffe6ff;*/
+  font-family: roboto;
 }
 
 .containerTout {
@@ -199,8 +200,8 @@ body {
 }
 
 header {
-  background-color: lightblue;
-  border-radius: 65px;
+  background-color: #add8e6;
+  border-radius: 45px;
   justify-content: center;
   display: flex;
   justify-content: space-between;
@@ -209,7 +210,7 @@ header {
 
 .headertexte {
   justify-content: center;
-  font-size: 30px;
+  color: #18414e;
 }
 
 .lienheader {
