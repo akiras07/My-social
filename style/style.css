@@ -12,9 +12,10 @@ body {
 .container {
   display: grid;
   grid-template-columns: 200px 200px 200px 200px;
-  grid-template-rows: 200px 200px 200px 200px 200px;
-  gap: 50px;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  gap: 150px;
   padding-top: 100px;
+  
 
 }
 
@@ -44,17 +45,18 @@ body {
 
 .bouton {
   border-radius: 35px;
+  /*
   padding-left: 25px;
   padding-right: 25px;
+  margin-left: 120px;
+  text-align: center;
+  */
   width: 275px;
-  height: 145px;
+  height: 100px;
   justify-content: center;
   margin-right: 65px;
   margin-bottom: 16px;
   margin-top: 16px;
-  text-align: center;
-  margin-left: 120px;
-
   text-decoration: none;
   border: #000000;
   border-width: 3px;
@@ -84,7 +86,8 @@ body {
 }
 
 .github {
-  border-color: #BBDDE5;
+  border-color: #000000;
+  background-color: #cccccc;
 }
 
 .threads {
@@ -177,14 +180,23 @@ body {
 }
 
 .at {
-  padding-top: 60px;
+  /*  padding-top: 60px; */
+  /* margin-top: -50px; */
+  margin-left: 100px;
 
 }
 
 .textrs {
-  padding-top: 40px;
+
+  margin-left: 100px;
+  margin-top: -50px;
+
 }
 
+.svgboutonrs {
+  margin-left: 10px;
+  margin-top: 12px;
+}
 
 header {
   background-color: lightblue;
