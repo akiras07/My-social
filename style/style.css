@@ -201,7 +201,6 @@ body {
 header {
   background-color: lightblue;
   border-radius: 65px;
-  justify-content: center;
   display: flex;
   justify-content: space-between;
 }
